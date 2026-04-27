@@ -12,7 +12,7 @@ try:
     total_load = float(sys.argv[1])
     num_supports = float(sys.argv[2])
 
-     num_supports == 0:
+    if num_supports == 0:
         print("Error: Cannot divide by zero! Supports must be greater than zero.")
     else:
         load_per_support = total_load / num_supports
